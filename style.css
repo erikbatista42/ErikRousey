@@ -1,3 +1,55 @@
-body {
-	background-color: gray;
+/*NAVBAR*/
+.nav1div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 77px;
+	width: 100%;
+	background-color: white;
+}
+.logo {
+	width: 80px;
+	height: 70px;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.logo2 {
+	position: absolute;
+	top: 0px;
+	left: 470px;
+	height: 90px;
+	width: 300px;
+}
+ol {
+	list-style-type: none;
+	text-decoration-style: none;
+	position: absolute;
+	top: 10px;
+	right: 337px;
+}
+li {
+	display: inline;
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 16px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+li:hover {
+	padding-top: 5px;
+	text-decoration: underline;
+	color: gray;
+}
+/*NAVBAR ENDS HERE*/
+
+footer {
+	position: absolute;
+	top: 900px;
+	right: 0px;
+	left: 0px;
+	height: 50px;
+	background-color: black;
+
 }
