@@ -1,3 +1,6 @@
+body {
+	background-color: gray;
+}
 /*NAVBAR*/
 .nav1div {
 	position: absolute;
@@ -46,10 +49,25 @@ li:hover {
 
 footer {
 	position: absolute;
-	top: 900px;
+	top: 910px;
 	right: 0px;
 	left: 0px;
-	height: 50px;
+	height: 80px;
 	background-color: black;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
 
+.twitter {
+	position: absolute;
+	top: 10px;
+	left: 975px;
+	height: 30px;
+	width: 30px;
+	color: gray;
+}
+.twitter:hover {
+	color: red;
+	
+	
 }
