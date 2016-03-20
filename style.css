@@ -128,4 +128,10 @@ h6:hover {
 	left: 0px;
 	height: 900px;
 	width: 100%;
+	-webkit-filter: blur(7px);
+}
+iframe {
+	position: absolute;
+	left: 370px;
+	top: 135px;
 }
